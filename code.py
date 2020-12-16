@@ -18,7 +18,7 @@ def generator(x):
     for i in range(int(lengthinput)):
         password = "".join(random.choices(available_characters))
         pa = pa + password
-    print("\nThis Password Generator is developed by Students of C V raman College of engineering\nTHANK YOU")
+    print("\nThis Password Generator is developed by Puja Agarwal\nTHANK YOU")
 
     u = copy1(pa)
     return pa
